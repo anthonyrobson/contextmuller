@@ -1,0 +1,85 @@
+\startenvironment env_muller
+
+\version [temporary]
+
+\usepath [{chapters}]
+
+\definepapersize[muller][width=5.46in, height=9.36in]
+\setuppapersize[muller][A4]
+\setuplayout [location=middle,
+              width=4.16in,
+              height=8.24in,
+              %marking=on
+            ]
+%\showframe
+
+\enableregime[utf]
+\setupcapitals[sc=yes]
+
+\starttypescript [serif] [gentium]
+  \definefontsynonym [Serif]             [name:gentiumplus]
+  \definefontsynonym [SerifBold]         [name:gentiumplus]
+  \definefontsynonym [SerifItalic]       [name:gentiumplusitalic]
+  \definefontsynonym [SerifSlanted]      [name:gentiumplusitalic]
+  \definefontsynonym [SerifBoldItalic]   [name:gentiumplusitalic]
+  \definefontsynonym [SerifBoldSlanted]  [name:gentiumplusitalic]
+  \definefontsynonym [SerifCaps]         [name:gentiumplus]
+\stoptypescript
+
+\starttypescript [sans] [annapurna]
+  \definefontsynonym [Sans]             [name:annapurnasilregular]
+  \definefontsynonym [SansBold]         [name:annapurnasilbold]
+  \definefontsynonym [SansItalic]       [name:annapurnasilregular]
+  \definefontsynonym [SansSlanted]      [name:annapurnasilregular]
+  \definefontsynonym [SansBoldItalic]   [name:annapurnasilbold]
+  \definefontsynonym [SansBoldSlanted]  [name:annapurnasilbold]
+  \definefontsynonym [SansCaps]         [name:annapurnasilregular]
+\stoptypescript
+
+\definefontfeature [default-gentium] [script=latn, language=dflt, liga=yes,
+kern=yes, tlig=yes, trep=yes, mode=node,
+ss07=true, cv78=yes]
+\definefontfeature [default-sanskrit] [script=dev2, language=dflt, abvm=yes,
+blwm=yes, aalt=yes, abvs=yes, akhn=yes, blwf=yes, blws=yes, calt=yes, ccmp=yes,
+cjct=yes, half=yes, haln=yes, liga=yes, pres=yes, psts=yes, rclt=yes, rkrf=yes,
+rlig=yes, rphf=yes, ss15=yes]
+
+\definetypeface [sanskrit]  [rm]  [serif] [gentium] [default] [features=default-gentium]
+\definetypeface [sanskrit]  [ss]  [sans]  [annapurna] [default] [features=devanagari-one]
+
+\usetypescript[sanskrit][uc]
+\setupbodyfont[sanskrit, rm, 10pt]
+\language[en]
+
+\define[1]\tl{{\it #1}}
+\define[2]\tr{{\ss #1} {\it #2}}
+\define[1]\eng{{#1}}
+\define[1]\panini{(Pāṇini, #1)}
+
+\setupindenting [yes, medium]
+\setupalign[nothanging, nohz, hyphenated, stretch, lesshyphenation, justified]
+
+\definecounter[Sec]
+\define\s{\incrementcounter[Sec]§~\rawcountervalue[Sec].~}
+
+\definestartstop[notes][commands={\setupinterlinespace[line=2.1ex]\tfx}]
+
+\setupinteraction
+  [state=start,
+   color=black,
+   title={Sanskrit Grammar for Beginners},
+   author={F. Max Müller},
+   keyword={Sanskrit}]
+\placebookmarks[chapter][chapter]
+\setupinteractionscreen[option=bookmark]
+
+\define[3]\mullertitle{\title[#1]{#2 \\ {\tfx #3}}}
+\setuphead[title][page=no, before={\blank[5*big]}, after={}, align=middle, style={\WORD\bfa},
+after={\blank[force, 2*big,medium]}, before={\blank[force]}]
+\setuphead[subject][before={\blank}, after={}, style={\tf\it}, align=middle]
+
+\setuptabulate[before={}, after={}, indenting=yes]
+
+\setupitemize[packed, joinedup, 4*serried]
+
+\stopenvironment

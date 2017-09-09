@@ -1,0 +1,1146 @@
+local utilitydata = { }
+
+utilitydata.comment={
+ ["escape"]="[===[ ... ]===]",
+ ["file"]="prd_muller",
+ ["format"]="cont-en",
+ ["stamp"]="2017.05.15 21:48",
+ ["version"]=1.3,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.checksums={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.collected={
+ ["macros"]={},
+ ["randomseed"]=0.90609849426248,
+ ["sectionblockorder"]={ "frontpart", "bodypart" },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.structure then utilitydata.job.structure = { } end
+
+utilitydata.job.structure.collected={
+ ["branches"]={
+  {
+   ["branches"]={
+    {
+     ["branches"]={},
+     ["name"]="env_muller",
+     ["type"]="environment",
+    },
+   },
+   ["name"]="project_muller",
+   ["type"]="project",
+  },
+  {
+   ["branches"]={
+    {
+     ["branches"]={},
+     ["name"]="c_preface",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="c_preface2ed",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="c_alphabet",
+     ["type"]="component",
+    },
+   },
+   ["name"]="prd_muller",
+   ["type"]="product",
+  },
+ },
+ ["name"]="prd_muller",
+ ["type"]="text",
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.positions then utilitydata.job.positions = { } end
+
+utilitydata.job.positions.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.passes then utilitydata.job.passes = { } end
+
+utilitydata.job.passes.collected={
+ ["itemgroup:itemize:1"]={
+  { 7, 0 },
+ },
+ ["itemgroup:itemize:2"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:3"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:4"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:5"]={
+  { 2, 0 },
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.datasets then utilitydata.job.datasets = { } end
+
+utilitydata.job.datasets.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
+
+utilitydata.job.pagestates.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.specials then utilitydata.structures.specials = { } end
+
+utilitydata.structures.specials.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.counters then utilitydata.structures.counters = { } end
+
+utilitydata.structures.counters.collected={
+ ["Sec"]={
+  { 0, 0, 0, 0, 0, 0, 22, 0, 11 },
+ },
+ ["chemical"]={
+  { 0, 0, 0, 0, 0 },
+ },
+ ["combination"]={
+  { 0 },
+ },
+ ["endnote"]={
+  { 0 },
+ },
+ ["figure"]={
+  { 0, 0, 0, 0, 0 },
+ },
+ ["footnote"]={
+  { 14 },
+ },
+ ["formula"]={
+  { 0, 0, 0, 0, 0 },
+ },
+ ["graphic"]={
+  { 0, 0, 0, 0, 0 },
+ },
+ ["intermezzo"]={
+  { 0, 0, 0, 0, 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0, 0, 0, 0, 7, 0, 0, 3, 2, 2, 2 },
+ },
+ ["linenote"]={
+  { 0 },
+ },
+ ["paragraph"]={
+  { 0, 0, 0, 0, 0 },
+ },
+ ["realpage"]={
+  { 22 },
+ },
+ ["subpage"]={
+  { 1 },
+ },
+ ["table"]={
+  { 0, 0, 0, 0, 0 },
+ },
+ ["userpage"]={
+  { 22 },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
+
+utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="c_preface",
+   ["internal"]=1,
+   ["realpage"]=1,
+   ["reference"]="preface1",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["title"]="Preface \\\\ {\\tfx to the First Edition.}",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=6,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_preface",
+   ["internal"]=2,
+   ["order"]=1,
+   ["realpage"]=2,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="The few alterations that I have made in the usual terminology have been made solely with a view of facilitating the work of the learner. Thus instead of numbering the ten classes of verbs, I have called each by its first verb. This relieves the memory of much unnecessary trouble, as the very name indicates the character of each class; and though the names may at first sound somewhat uncouth, they are after all the only names recognized by native grammarians. Knowing from my experience as an examiner how difficult it is to remember the merely numerical distinction between the first, second, or third preterites, or the first and second futures, I have kept as much as possible to the terminology with which classical scholars are familiar, calling the tense corresponding to the Greek imperfect, {\\em imperfect}; that corresponding to the perfect, {\\em reduplicated perfect}; that corresponding to the aorist, {\\em aorist}; and the mood corresponding to the optative, {\\em optative}. The names of {\\em periphrastic perfect} and {\\em periphrastic future} tell their own story; and if I have retained the merely numerical distinction between the first and second aorists, it was because this distinction seemed to be more intelligible to a classical scholar than the six or seven forms of the so-called {\\em multiform preterite}. If it were possible to make a change in the established grammar nomenclature, I should much prefer to call the {\\em first} the {\\em second}, and the {\\em second} the {\\em first aorist}; the former being a secondary and compound, the latter a primary and simple tense. But {\\em first} and {\\em second aorists} have become almost proper names, and will not easily yield their place to mere argument.",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=9,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_preface",
+   ["internal"]=4,
+   ["order"]=2,
+   ["realpage"]=2,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="In the University of Leipsig alone, as many as fifty pupils attended every year the classes of Professor Brockhaus in order to acquire a knowledge of the elements of Sanskrit, previous to the study of comparative philology under Professor Curtius.",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=11,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_preface",
+   ["internal"]=6,
+   ["order"]=3,
+   ["realpage"]=3,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="In the second edition all these paragraphs are printed in smaller type.",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=13,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_preface",
+   ["internal"]=8,
+   ["order"]=4,
+   ["realpage"]=3,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["bookmark"]="To those who have the same faith in the accurate and never swerving argumentations of Sanskrit commentators, it may be a saving of time to be informed that in the new and very useful edition of the {\\em Siddhānta-Kaumudī} by Śrī Tārānātha-tarkavā-caspati there are two misprints which hopelessly disturb the order of the rules on the proper declension of nouns in \\tl {ī} and \\tl {ū}. On page 136, line 7, read {\\ss श्रीवत्‌} instead of {\\ss स्त्रीवत्‌}; this is corrected in the {\\em Corrigenda}, and the right reading is found in the old edition. On the same page, line 13, insert {\\ss न} after {\\ss विना}, or join {\\ss विनास्त्रीबोघकत्वं}.",
+   ["title"]="To those who have the same faith in the accurate and never swerving argumentations of Sanskrit commentators, it may be a saving of time to be informed that in the new and very useful edition of the {\\em Siddhānta-Kaumudī} by Śrī Tārānātha-tarkavā-caspati there are two misprints which hopelessly disturb the order of the rules on the proper declension of nouns in \\tl {ī} and \\tl {ū}. On page~136, line~7, read {\\ss श्रीवत्‌} instead of {\\ss स्त्रीवत्‌}; this is corrected in the {\\em Corrigenda}, and the right reading is found in the old edition. On the same page, line~13, insert {\\ss न} after {\\ss विना}, or join {\\ss विनास्त्रीबोघकत्वं}.",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=15,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_preface",
+   ["internal"]=10,
+   ["order"]=5,
+   ["realpage"]=4,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["bookmark"]="See Wilson's {\\em Sanscrit and English Dictionary}, first edition, preface, p. xlv.",
+   ["title"]="See Wilson's {\\em Sanscrit and English Dictionary}, first edition, preface, p.\\ xlv.",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=17,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_preface",
+   ["internal"]=12,
+   ["order"]=6,
+   ["realpage"]=6,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="They have been in the second edition.",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="c_preface2ed",
+   ["internal"]=14,
+   ["realpage"]=9,
+   ["reference"]="preface2",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["title"]="Preface \\\\ {\\tfx to the Second Edition.}",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=18,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c_alphabet",
+   ["internal"]=15,
+   ["realpage"]=12,
+   ["reference"]="alphabet",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Chapter I. \\\\ {\\tfx The Alphabet.}",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=20,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_alphabet",
+   ["internal"]=20,
+   ["order"]=11,
+   ["realpage"]=13,
+   ["reference"]="Footb",
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\tr {ह}{h} is not properly a liquid, but a soft breathing.",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=22,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_alphabet",
+   ["internal"]=22,
+   ["order"]=12,
+   ["realpage"]=13,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="The signs for the guttural and labial sibilants have become obsolete, and are replaced by the two dots \\tr {ः}{ḥ}.",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=24,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_alphabet",
+   ["internal"]=24,
+   ["order"]=13,
+   ["realpage"]=13,
+   ["reference"]="a",
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="In the Veda \\tr {ड}{ḍ} and \\tr {ढ}{ḍh}, if between two vowels, are in certain schools written \\tr {ळ}{ḷ} and \\tl {ळ्ह}.",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=26,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_alphabet",
+   ["internal"]=26,
+   ["order"]=14,
+   ["realpage"]=13,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["bookmark"]="\\tr {व}{v} is sometimes called {\\em dento-labial}.",
+   ["title"]="\\tr {व}{v} is sometimes called {\\em dento||labial}.",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=28,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_alphabet",
+   ["internal"]=28,
+   ["order"]=15,
+   ["realpage"]=15,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["bookmark"]="This edition, which has lately been reprinted, contains the text---ascribed either to Vāṇī herself, i.e. Sarasvatī, the goddess of speech (MS Bodl. 386), or to Anubhūti-svarūpa-āchārya, whoever that may be---and a commentary. The commentary printed in the Bombay editions is called {\\ss महीघरी}, or in MS Bodl. 382 {\\ss मैदासी}, i.e. {\\ss महीदासी}. In MS Bodl. 382 Mahīdhara or Mahīdāsabhaṭṭa is said to have written the {\\em Sārasvata} in order that his children might read it, and to please Īśa, \\eng {the Lord}. The date given is 1634, the place Benares (Śivarājadhanī).",
+   ["title"]="This edition, which has lately been reprinted, contains the text---ascribed either to Vāṇī herself, i.e.\\ Sarasvatī, the goddess of speech (MS Bodl.\\ 386), or to Anubhūti-svarūpa-āchārya, whoever that may be---and a commentary. The commentary printed in the Bombay editions is called {\\ss महीघरी}, or in MS Bodl.\\ 382 {\\ss मैदासी}, i.e.\\ {\\ss महीदासी}. In MS Bodl.\\ 382 Mahīdhara or Mahīdāsabhaṭṭa is said to have written the {\\em Sārasvata} in order that his children might read it, and to please Īśa, \\eng {the Lord}. The date given is 1634, the place Benares (Śivarājadhanī).",
+  },
+ },
+ {
+  ["metadata"]=29,
+  ["numberdata"]=31,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c_alphabet",
+   ["internal"]=30,
+   ["realpage"]=17,
+   ["reference"]="conjuncts",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="List of Compound Consonants",
+  },
+ },
+ {
+  ["metadata"]=29,
+  ["numberdata"]=31,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c_alphabet",
+   ["internal"]=31,
+   ["realpage"]=17,
+   ["reference"]="numbers",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Numerical Figures",
+  },
+ },
+ {
+  ["metadata"]=29,
+  ["numberdata"]=31,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c_alphabet",
+   ["internal"]=32,
+   ["realpage"]=18,
+   ["reference"]="pronunciation",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Pronunciation.",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=18,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=37,
+   ["realpage"]=19,
+   ["reference"]="sandhi",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Chapter II. \\\\ {\\tfx Rules of Sandhi or the Combination of Letters.}",
+  },
+ },
+ {
+  ["metadata"]=32,
+  ["numberdata"]=34,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_alphabet",
+   ["internal"]=33,
+   ["order"]=16,
+   ["realpage"]=19,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["bookmark"]="Bühler, {\\em Madras Literary Journal}, February, 1864. Rajendralal Mitra, {\\em On the Origin of the Hindvī Language}, {\\em Journal of the Asiatic Society}, Bengal, 1864, p. 509.",
+   ["title"]="Bühler, {\\em Madras Literary Journal}, February, 1864. Rajendralal Mitra, {\\em On the Origin of the Hindvī Language}, {\\em Journal of the Asiatic Society}, Bengal, 1864, p.\\ 509.",
+  },
+ },
+ {
+  ["metadata"]=32,
+  ["numberdata"]=36,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["component"]="c_alphabet",
+   ["internal"]=35,
+   ["order"]=17,
+   ["realpage"]=19,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["bookmark"]="According to Sanskrit grammarians the real anusvāra is pronounced in the nose only, the five nasals by their respective organs and the nose. Siddh.-Kaum. to Pāṇini 1.1.9. {\\ss ञमङणनानां नासिका च (चकारेण खखवर्गोच्चारानुकूलं ताल्वादि समुच्चीयते)।।} The real anusvāra is therefore \\tl {nāsikya}, \\eng {nasal}; the five nasals are \\tl {anunāsika}, \\eng {nasalized}, i.e. pronounced by their own organ of speech, and uttered through the nose.",
+   ["title"]="According to Sanskrit grammarians the real anusvāra is pronounced in the nose only, the five nasals by their respective organs and the nose. Siddh.-Kaum.\\ to Pāṇini 1.1.9. {\\ss ञमङणनानां नासिका च (चकारेण खखवर्गोच्चारानुकूलं ताल्वादि समुच्चीयते)।।} The real anusvāra is therefore \\tl {nāsikya}, \\eng {nasal}; the five nasals are \\tl {anunāsika}, \\eng {nasalized}, i.e.\\ pronounced by their own organ of speech, and uttered through the nose.",
+  },
+ },
+ {
+  ["metadata"]=29,
+  ["numberdata"]=31,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=38,
+   ["realpage"]=20,
+   ["reference"]="intextsandhi",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Distinction between External and Internal Sandhi.",
+  },
+ },
+ {
+  ["metadata"]=29,
+  ["numberdata"]=31,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=39,
+   ["realpage"]=20,
+   ["reference"]="vowelclasses",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Classification of Vowels.",
+  },
+ },
+ {
+  ["metadata"]=29,
+  ["numberdata"]=31,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=40,
+   ["realpage"]=21,
+   ["reference"]="gunavrddhi",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Guṇa and Vṛddhi.",
+  },
+ },
+ {
+  ["metadata"]=29,
+  ["numberdata"]=31,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=41,
+   ["realpage"]=22,
+   ["reference"]="vowelsandhi",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Combination of Vowels at the end and beginning of words.",
+  },
+ },
+ {
+  ["metadata"]=32,
+  ["numberdata"]=38,
+  ["prefixdata"]=7,
+  ["references"]={
+   ["internal"]=42,
+   ["order"]=18,
+   ["realpage"]=22,
+   ["section"]=0,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["bookmark"]="The {\\em Prātiśākhya} calls thems \\tl {nāmin}, for a different reason; see {\\em Rig-veda-prātiśākhya}, ed. M. M., p. xxiii.",
+   ["title"]="The {\\em Prātiśākhya} calls thems \\tl {nāmin}, for a different reason; see {\\em Rig-veda-prātiśākhya}, ed.\\ M.\\ M., p.\\ xxiii.",
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.pages then utilitydata.structures.pages = { } end
+
+utilitydata.structures.pages.collected={
+ {
+  ["block"]="frontpart",
+  ["number"]=1,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=2,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=3,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=4,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=5,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=6,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=7,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=8,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=9,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=10,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=11,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=12,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=13,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=14,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=15,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=16,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=17,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=18,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=19,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=20,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=21,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=22,
+  ["numberdata"]=39,
+  ["prefixdata"]=40,
+  ["state"]="start",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.collected={
+ [""]={
+  ["*42"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=43,
+    ["realpage"]=22,
+    ["reference"]="*42",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+ },
+ ["c_alphabet"]={
+  ["*20"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=21,
+    ["prefix"]="c_alphabet",
+    ["realpage"]=13,
+    ["reference"]="*20",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*22"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=23,
+    ["prefix"]="c_alphabet",
+    ["realpage"]=13,
+    ["reference"]="*22",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*24"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=25,
+    ["prefix"]="c_alphabet",
+    ["realpage"]=13,
+    ["reference"]="*24",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*26"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=27,
+    ["prefix"]="c_alphabet",
+    ["realpage"]=13,
+    ["reference"]="*26",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*28"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=29,
+    ["prefix"]="c_alphabet",
+    ["realpage"]=15,
+    ["reference"]="*28",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*33"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=34,
+    ["prefix"]="c_alphabet",
+    ["realpage"]=19,
+    ["reference"]="*33",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*35"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=36,
+    ["prefix"]="c_alphabet",
+    ["realpage"]=19,
+    ["reference"]="*35",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+ },
+ ["c_preface"]={
+  ["*10"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="frontpart",
+    ["internal"]=11,
+    ["prefix"]="c_preface",
+    ["realpage"]=4,
+    ["reference"]="*10",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*12"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="frontpart",
+    ["internal"]=13,
+    ["prefix"]="c_preface",
+    ["realpage"]=6,
+    ["reference"]="*12",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*2"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="frontpart",
+    ["internal"]=3,
+    ["prefix"]="c_preface",
+    ["realpage"]=2,
+    ["reference"]="*2",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*4"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="frontpart",
+    ["internal"]=5,
+    ["prefix"]="c_preface",
+    ["realpage"]=2,
+    ["reference"]="*4",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*6"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="frontpart",
+    ["internal"]=7,
+    ["prefix"]="c_preface",
+    ["realpage"]=3,
+    ["reference"]="*6",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*8"]={
+   ["metadata"]=41,
+   ["references"]={
+    ["block"]="frontpart",
+    ["internal"]=9,
+    ["prefix"]="c_preface",
+    ["realpage"]=3,
+    ["reference"]="*8",
+    ["section"]=0,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.referred={
+ { 2, 1 },
+ { 3, 5 },
+ { 4, 9 },
+ { 6, 11 },
+ { 13, 13 },
+ { 15, 21 },
+ { 19, 23 },
+ { 22, 27 },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.objects then utilitydata.job.objects = { } end
+
+utilitydata.job.objects.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.synonyms then utilitydata.structures.synonyms = { } end
+
+utilitydata.structures.synonyms.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.registers then utilitydata.structures.registers = { } end
+
+utilitydata.structures.registers.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.blocks then utilitydata.structures.blocks = { } end
+
+utilitydata.structures.blocks.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.files then utilitydata.job.files = { } end
+
+utilitydata.job.files.collected={
+}
+
+if not utilitydata.publications then utilitydata.publications = { } end
+
+utilitydata.publications.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences = { } end
+
+utilitydata.job.fileobjreferences.collected={
+}
+
+utilitydata.job.packed={
+ ["index"]={
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="section",
+   ["level"]=2,
+   ["name"]="title",
+   ["nolist"]=true,
+  },
+  { 0, 0 },
+  {
+   ["block"]="frontpart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="construction",
+   ["level"]=2,
+   ["name"]="footnote",
+  },
+  { 1 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=5,
+  },
+  {
+   ["connector"]=".",
+   ["prefix"]="no",
+   ["segments"]="2:2",
+  },
+  { 2 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=8,
+  },
+  { 3 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=10,
+  },
+  { 4 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=12,
+  },
+  { 5 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=14,
+  },
+  { 6 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=16,
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 7 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=19,
+  },
+  { 8 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=21,
+  },
+  { 9 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=23,
+  },
+  { 10 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=25,
+  },
+  { 11 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=27,
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="section",
+   ["level"]=3,
+   ["name"]="subject",
+   ["nolist"]=true,
+  },
+  { 0, 0, 0 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=30,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="construction",
+   ["level"]=3,
+   ["name"]="footnote",
+  },
+  { 12 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=33,
+  },
+  { 13 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=35,
+  },
+  { 14 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=37,
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+  {
+   ["kind"]="page",
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["skip"]={
+  ["datasets"]=true,
+  ["userdata"]=true,
+ },
+ ["version"]=1.02,
+}
+
+return utilitydata
